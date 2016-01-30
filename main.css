@@ -1,0 +1,172 @@
+/*NAV*/
+
+.nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;   
+}
+
+#primarynav {
+    background-color: #333;
+}
+
+#secondarynav {
+    background-color: #738290; 
+}
+
+.nav li {
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+#primarynav {
+  display: flex;
+  flex-direction: column;
+}  
+
+.nav {
+  flex: 1;
+  justify-content: space-around;
+}
+
+/*Media*/
+
+
+@media only screen and (min-width: 640px) {
+  .nav {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1030px) {
+  .nav {
+    flex: none;
+  }
+}
+
+
+/*Logo*/
+
+.logo {
+  background: transparent;
+  max-width: 35%;
+  text-align: left;
+  padding: 10px, 3px;
+}
+
+/*FOOTER*/
+
+.socialmedia {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.socmedicons {
+ padding: 10px;
+ max-width: 50px;
+}
+
+footer {
+  background-color: #5D737E;
+  margin-top: 40px;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+
+/*Blog preview
+
+.container  {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 80%;
+  padding: 30px;
+  background-color: #EAEAEA;
+}
+.title {
+  max-width: 80%;
+  margin-left: 10%;
+}
+
+/*Buttons*/
+
+.button {
+ margin: 5px;
+}
+
+.buttons {
+  max-width: 80%;
+  margin-left: 10%
+}
+
+/*Banner*/
+
+.main-header img {
+  position: inherit;
+  width: 100%;
+}
+
+
+/*Quote Styles*/
+
+h1.quotesheader, h2.quotesheader {
+  text-align: center;
+  padding-top: 30px;
+}
+
+div.quotegenerator {
+  /*background: url("../images/frozenwheat.jpg");*/
+  background-size: 150px;
+  background-repeat: no-repeat;
+  }
+
+div .quotecontainer {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding : 10px;
+  background-color: #FFFFFF;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+a#newquotebutton {
+  margin-left: 45%;
+  margin-right: 45%;
+}
+
+/*Boxes*/
+
+#technicolour {
+  background-color: white;
+  height: 100%;
+}
+
+#main {
+  width: 918px;
+  margin: 0 auto;
+}
+
+.box {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  background-color: white;
+  float: left;
+}
+
