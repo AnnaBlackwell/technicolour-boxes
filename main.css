@@ -158,13 +158,13 @@ a#newquotebutton {
 }
 
 #main {
-  width: 918px;
+  width: 1366px;
   margin: 0 auto;
 }
 
 .box {
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
   position: relative;
   background-color: white;
   float: left;
