@@ -1,5 +1,5 @@
 //when mouse enters a box
-  var newColour = document.getElementsByClass("box").addEventListener("mouseenter", function(){
+  var newColour = document.getElementsByClassName("box").addEventListener("mouseenter", function(){
     this.style.backgroundColor = randomColour
   });
 
